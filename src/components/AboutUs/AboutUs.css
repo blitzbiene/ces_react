@@ -1,0 +1,36 @@
+.aboutus__image-container{
+    /* The image used - important! */
+    background-size: cover;
+    position: relative; /* Needed to position the cutout text in the middle of the image */
+    height: 200px; /* Some height */
+  }
+  .aboutus__text2{
+    background-color: white;
+    color: black;
+    font-size: 4.2vw; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    padding: 0px;
+    width: 65%;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+  }
+
+  .aboutus__header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+
+  .aboutus__vidlogo{
+	float: right;
+}
+.aboutus__exe6{
+   
+	margin-top: 25px;
+	margin-left: 40px;
+}
